@@ -13,6 +13,14 @@
 		0317CA4B1E52B57800E44B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0317CA4A1E52B57800E44B4F /* Assets.xcassets */; };
 		0317CA4E1E52B57800E44B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0317CA4C1E52B57800E44B4F /* LaunchScreen.storyboard */; };
 		0317CA591E52B57900E44B4F /* BMICalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0317CA581E52B57900E44B4F /* BMICalculatorTests.swift */; };
+		0317CA641E52C33000E44B4F /* skeleton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0317CA631E52C33000E44B4F /* skeleton.png */; };
+		039CCC911E58F4EC00DD6337 /* ModerateThinness.png in Resources */ = {isa = PBXBuildFile; fileRef = 039CCC901E58F4EC00DD6337 /* ModerateThinness.png */; };
+		039CCC931E58F59C00DD6337 /* mildThinness.png in Resources */ = {isa = PBXBuildFile; fileRef = 039CCC921E58F59C00DD6337 /* mildThinness.png */; };
+		039CCC951E58F60800DD6337 /* normalRange.png in Resources */ = {isa = PBXBuildFile; fileRef = 039CCC941E58F60800DD6337 /* normalRange.png */; };
+		039CCC971E58F7CA00DD6337 /* overweight.png in Resources */ = {isa = PBXBuildFile; fileRef = 039CCC961E58F7CA00DD6337 /* overweight.png */; };
+		039CCC991E58F81300DD6337 /* obeseClass1.png in Resources */ = {isa = PBXBuildFile; fileRef = 039CCC981E58F81300DD6337 /* obeseClass1.png */; };
+		039CCC9B1E58F8F400DD6337 /* obeseClass2.png in Resources */ = {isa = PBXBuildFile; fileRef = 039CCC9A1E58F8F400DD6337 /* obeseClass2.png */; };
+		039CCC9D1E58F99600DD6337 /* obeseClass3.png in Resources */ = {isa = PBXBuildFile; fileRef = 039CCC9C1E58F99600DD6337 /* obeseClass3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 		0317CA541E52B57900E44B4F /* BMICalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMICalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0317CA581E52B57900E44B4F /* BMICalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorTests.swift; sourceTree = "<group>"; };
 		0317CA5A1E52B57900E44B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0317CA631E52C33000E44B4F /* skeleton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = skeleton.png; path = ../../../../Downloads/skeleton.png; sourceTree = "<group>"; };
+		039CCC901E58F4EC00DD6337 /* ModerateThinness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ModerateThinness.png; path = ../../../../Downloads/ModerateThinness.png; sourceTree = "<group>"; };
+		039CCC921E58F59C00DD6337 /* mildThinness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mildThinness.png; path = ../../../../Downloads/mildThinness.png; sourceTree = "<group>"; };
+		039CCC941E58F60800DD6337 /* normalRange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = normalRange.png; path = ../../../../Downloads/normalRange.png; sourceTree = "<group>"; };
+		039CCC961E58F7CA00DD6337 /* overweight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = overweight.png; path = ../../../../Downloads/overweight.png; sourceTree = "<group>"; };
+		039CCC981E58F81300DD6337 /* obeseClass1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = obeseClass1.png; path = ../../../../Downloads/obeseClass1.png; sourceTree = "<group>"; };
+		039CCC9A1E58F8F400DD6337 /* obeseClass2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = obeseClass2.png; path = ../../../../Downloads/obeseClass2.png; sourceTree = "<group>"; };
+		039CCC9C1E58F99600DD6337 /* obeseClass3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = obeseClass3.png; path = ../../../../Downloads/obeseClass3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +96,14 @@
 				0317CA431E52B57700E44B4F /* AppDelegate.swift */,
 				0317CA451E52B57800E44B4F /* ViewController.swift */,
 				0317CA471E52B57800E44B4F /* Main.storyboard */,
+				039CCC9C1E58F99600DD6337 /* obeseClass3.png */,
+				039CCC9A1E58F8F400DD6337 /* obeseClass2.png */,
+				039CCC981E58F81300DD6337 /* obeseClass1.png */,
+				039CCC961E58F7CA00DD6337 /* overweight.png */,
+				039CCC941E58F60800DD6337 /* normalRange.png */,
+				039CCC921E58F59C00DD6337 /* mildThinness.png */,
+				039CCC901E58F4EC00DD6337 /* ModerateThinness.png */,
+				0317CA631E52C33000E44B4F /* skeleton.png */,
 				0317CA4A1E52B57800E44B4F /* Assets.xcassets */,
 				0317CA4C1E52B57800E44B4F /* LaunchScreen.storyboard */,
 				0317CA4F1E52B57800E44B4F /* Info.plist */,
@@ -179,9 +203,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0317CA641E52C33000E44B4F /* skeleton.png in Resources */,
 				0317CA4E1E52B57800E44B4F /* LaunchScreen.storyboard in Resources */,
+				039CCC951E58F60800DD6337 /* normalRange.png in Resources */,
 				0317CA4B1E52B57800E44B4F /* Assets.xcassets in Resources */,
+				039CCC911E58F4EC00DD6337 /* ModerateThinness.png in Resources */,
+				039CCC971E58F7CA00DD6337 /* overweight.png in Resources */,
 				0317CA491E52B57800E44B4F /* Main.storyboard in Resources */,
+				039CCC931E58F59C00DD6337 /* mildThinness.png in Resources */,
+				039CCC9D1E58F99600DD6337 /* obeseClass3.png in Resources */,
+				039CCC9B1E58F8F400DD6337 /* obeseClass2.png in Resources */,
+				039CCC991E58F81300DD6337 /* obeseClass1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +438,7 @@
 				0317CA5F1E52B57900E44B4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0317CA601E52B57900E44B4F /* Build configuration list for PBXNativeTarget "BMICalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +447,7 @@
 				0317CA621E52B57900E44B4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
