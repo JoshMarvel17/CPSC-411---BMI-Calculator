@@ -46,12 +46,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var metricSwitch: UISwitch!
     
     
-    
-    
-    
-    
    //MARK: Actions
-    
     
     @IBAction func metricSwitchToggle(_ sender: UISwitch) {
         
@@ -64,9 +59,6 @@ class ViewController: UIViewController {
             resultLabel.isHidden = true
             CategoryLabel.isHidden = true
             picImageView.isHidden = true
-            
-
-            
         }
         else
         {
@@ -80,15 +72,9 @@ class ViewController: UIViewController {
             picImageView.isHidden = true
             
         }
-        
-        
     }
     
-    
-    
     @IBAction func CalculateButton(_ sender: UIButton){
-        
-
         
         let height: Float = Float(heightTextBox.text!)!
     
@@ -96,7 +82,6 @@ class ViewController: UIViewController {
         
         var bmi = Float(0)
         
-       
         
         if (metricSwitch.isOn){
             
@@ -107,11 +92,7 @@ class ViewController: UIViewController {
             
             bmi = (weight * (703/(height*height)))
         }
-        
-        
         self.displayResult(bmi: bmi)
-        
- 
     }
     
     private func displayResult(bmi: Float)
@@ -211,12 +192,6 @@ class ViewController: UIViewController {
             CategoryLabel.text = "Obese Class |||"
             picImageView.image = UIImage(named: "obeseClass3")
         }
-        
-        
     }
-    
-    
-    
-    
 }
 
