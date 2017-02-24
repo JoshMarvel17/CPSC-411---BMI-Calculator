@@ -106,6 +106,8 @@ class ViewController: UIViewController {
             CategoryLabel.isHidden = false
             picImageView.isHidden = false
             CategoryLabel.text = "Severe Thinness"
+            CategoryLabel.font = UIFont.boldSystemFont(ofSize: 20.0)
+            CategoryLabel.textColor = UIColor.red
             picImageView.image = UIImage(named: "skeleton")
         }
         
@@ -118,6 +120,8 @@ class ViewController: UIViewController {
             CategoryLabel.isHidden = false
             picImageView.isHidden = false
             CategoryLabel.text = "Moderate Thinness"
+            CategoryLabel.font = UIFont.systemFont(ofSize: 17.0)
+            CategoryLabel.textColor = UIColor.black
             picImageView.image = UIImage(named: "ModerateThinness")
         }
         
@@ -130,6 +134,8 @@ class ViewController: UIViewController {
             CategoryLabel.isHidden = false
             picImageView.isHidden = false
             CategoryLabel.text = "Mild Thinness"
+            CategoryLabel.font = UIFont.systemFont(ofSize: 17.0)
+            CategoryLabel.textColor = UIColor.black
             picImageView.image = UIImage(named: "mildThinness")
         }
         
@@ -142,6 +148,8 @@ class ViewController: UIViewController {
             CategoryLabel.isHidden = false
             picImageView.isHidden = false
             CategoryLabel.text = "Normal Range"
+            CategoryLabel.font = UIFont.systemFont(ofSize: 17.0)
+            CategoryLabel.textColor = UIColor.black
             picImageView.image = UIImage(named: "normalRange")
         }
         
@@ -154,6 +162,8 @@ class ViewController: UIViewController {
             CategoryLabel.isHidden = false
             picImageView.isHidden = false
             CategoryLabel.text = "Overweight"
+            CategoryLabel.font = UIFont.boldSystemFont(ofSize: 20.0)
+            CategoryLabel.textColor = UIColor.red
             picImageView.image = UIImage(named: "overweight")
         }
         
@@ -166,6 +176,8 @@ class ViewController: UIViewController {
             CategoryLabel.isHidden = false
             picImageView.isHidden = false
             CategoryLabel.text = "Obese Class |"
+            CategoryLabel.font = UIFont.boldSystemFont(ofSize: 20.0)
+            CategoryLabel.textColor = UIColor.red
             picImageView.image = UIImage(named: "obeseClass1")
         }
         
@@ -178,6 +190,8 @@ class ViewController: UIViewController {
             CategoryLabel.isHidden = false
             picImageView.isHidden = false
             CategoryLabel.text = "Obese Class ||"
+            CategoryLabel.font = UIFont.boldSystemFont(ofSize: 20.0)
+            CategoryLabel.textColor = UIColor.red
             picImageView.image = UIImage(named: "obeseClass2")
         }
         
@@ -190,6 +204,8 @@ class ViewController: UIViewController {
             CategoryLabel.isHidden = false
             picImageView.isHidden = false
             CategoryLabel.text = "Obese Class |||"
+            CategoryLabel.font = UIFont.boldSystemFont(ofSize: 20.0)
+            CategoryLabel.textColor = UIColor.red
             picImageView.image = UIImage(named: "obeseClass3")
         }
     }
